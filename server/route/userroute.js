@@ -124,19 +124,23 @@ router.get("/profile", userAuth, async (req, res) => {
 
 router.put("/update", userAuth, async (req, res) => {
   try {
-    const user = await userModel.findByIdAndUpdate(req.user.id,{ $set: req.body },
-      { new: true, runValidators: true });
+    const updatedUser = await userModel.findByIdAndUpdate(
+      req.user.id,
+      { $set: req.body },
+      { new: true, runValidators: true }
+    );
 
     if (!updatedUser) {
       return res.status(404).json({ success: false, message: "User not found" });
     }
-    
-    res.json({ success: true, user });
+
+    res.json({ success: true, user: updatedUser });
   } catch (error) {
     console.error("Profile update Error:", error);
     res.status(500).json({ msg: "Server error!" });
   }
 });
+
 
 
 export default router;
