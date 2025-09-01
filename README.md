@@ -30,9 +30,9 @@ This project provides user registration, login, JWT-based authentication, and pr
   <img src="https://github.com/user-attachments/assets/b14839ac-d014-44b0-84f3-0649e86620eb" alt="Signup Screenshot" width="450" style="border-radius:10px; margin:10px;" />
   <img src="https://github.com/user-attachments/assets/e72f1ad3-33b2-411f-ae3f-f14aac344aea" alt="Login Screenshot" width="450" style="border-radius:10px; margin:10px;" />
 </p>
-
+<br>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/49289eb7-dc2f-4d6e-b3c2-68ac298ad473" alt="Dashboard Screenshot" width="500" style="border-radius:10px; margin:10px;" />
+  <img src="https://github.com/user-attachments/assets/49289eb7-dc2f-4d6e-b3c2-68ac298ad473" alt="Dashboard Screenshot" width="450" style="border-radius:10px; margin:10px;" />
 </p>
 
 ---
